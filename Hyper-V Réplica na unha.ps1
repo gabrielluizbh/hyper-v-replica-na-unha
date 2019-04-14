@@ -371,5 +371,3 @@ Get-VMReplication -ReplicationState Replicating # Este exemplo obtém as configu
 Get-VMReplication -ReplicationState Suspended # Este exemplo obtém as configurações de replicação de todas as máquinas virtuais no estado Suspenso.
 
 Set-VMReplicationServer -MonitoringInterval "12:00:00" -MonitoringStartTime "17:00:00" # Este comando configura o servidor de réplica com um intervalo de monitoramento de 12 horas, iniciando às 17:00 horas.
-
-Set-VMReplicationServer -MonitoringInterval "12:00:00" -MonitoringStartTime "23:18:00" # Este comando configura o servidor de réplica com um intervalo de monitoramento de 12 horas, iniciando às 17:00 horas.
